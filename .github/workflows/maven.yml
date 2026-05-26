@@ -30,5 +30,5 @@ jobs:
     - name: Build and Analyze
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        SONAR_TOKEN: ${{ secrets.7e5c29821997822991143f35ede7999aa7219292 }}
       run: mvn verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=marsellacell -Dsonar.projectKey=marsellacell_MKPL-week10-github-actions
